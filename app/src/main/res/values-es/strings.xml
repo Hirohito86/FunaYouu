@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FunaYou</string>
+    <string name="action_settings">Configuración</string>
+    <string name="next">Siguiente</string>
+    <string name="previous">Anterior</string>
+    <string name="user">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="password_miss">Olvidé mi contraseña</string>
+    <string name="log_in">Ingresar</string>
+    <string name="sign_up">Registrarse</string>
+</resources>
