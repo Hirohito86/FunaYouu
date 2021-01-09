@@ -19,4 +19,6 @@
     <string name="finish">Finish</string>
     <string name="profile_picture">Profile picture</string>
     <string name="to_finish">To finish, select a user name and a profile picture</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>
