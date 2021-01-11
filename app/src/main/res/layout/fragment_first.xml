@@ -58,13 +58,13 @@
         app:layout_constraintVertical_bias="0.29000002">
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/log_button"
             android:layout_width="222dp"
             android:layout_height="wrap_content"
             android:text="@string/log_in" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/reg_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/sign_up" />
