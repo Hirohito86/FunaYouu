@@ -67,51 +67,50 @@
             android:gravity="start|top"
             android:inputType="textMultiLine" />
 
-        <View
-            android:id="@+id/divider4"
+        <Space
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="0.5"
-            android:background="?android:attr/listDivider" />
+            android:layout_height="50dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="2.5"
             android:orientation="horizontal">
 
             <ImageButton
                 android:id="@+id/imageButton3"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_height="42dp"
                 android:layout_weight="1"
-                android:src="@drawable/add" />
+                android:background="#0ECF21"
+                android:src="@drawable/add"
+                tools:src="@drawable/mas" />
 
             <ImageButton
                 android:id="@+id/imageButton4"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_height="42dp"
                 android:layout_weight="1"
-                android:src="@drawable/ic_baseline_camera_enhance_24" />
+                android:background="#0B67AE"
+                android:src="@drawable/ic_baseline_camera_enhance_24"
+                tools:src="@drawable/foto" />
 
             <ImageButton
                 android:id="@+id/imageButton5"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_height="42dp"
                 android:layout_weight="1"
-                android:src="@drawable/ic_baseline_mic_24" />
+                android:background="#E11010"
+                android:src="@drawable/ic_baseline_mic_24"
+                tools:src="@drawable/audio" />
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="0.1"
-            android:orientation="vertical">
-
-            <SearchView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-        </LinearLayout>
     </LinearLayout>
+
+    <SearchView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
