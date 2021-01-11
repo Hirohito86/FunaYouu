@@ -10,4 +10,6 @@
     <string name="password_miss">I forgot my password</string>
     <string name="log_in">Log in</string>
     <string name="sign_up">Sign up</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>
