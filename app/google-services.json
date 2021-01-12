@@ -1,41 +1,33 @@
 {
   "project_info": {
-    "project_number": "388575111061",
-    "project_id": "funayou-473b0",
-    "storage_bucket": "funayou-473b0.appspot.com"
+    "project_number": "87632736823",
+    "project_id": "fir-chatt-f8a64",
+    "storage_bucket": "fir-chatt-f8a64.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:388575111061:android:96b0da66e7e5c28ace389c",
+        "mobilesdk_app_id": "1:87632736823:android:6b88cc7735a9886e8045b2",
         "android_client_info": {
           "package_name": "com.example.funayou"
         }
       },
       "oauth_client": [
         {
-          "client_id": "388575111061-tu0fgjlgnk4evfi3g0ghh8m7c3bak3k4.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.funayou",
-            "certificate_hash": "1686b6add7333a32c607027124003ef852c8588a"
-          }
-        },
-        {
-          "client_id": "388575111061-06dngd69cii4rp8eh9dci9nduiv7jpb1.apps.googleusercontent.com",
+          "client_id": "87632736823-10vm0vb8n18g06uin8k0hqqjlbugt4g7.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBd9_3gP4rgbCuZdWVF-Etpdunt1gIJ6VM"
+          "current_key": "AIzaSyCINByA7PUVYIuk6wLlWq0cuZtPLHzXR58"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "388575111061-06dngd69cii4rp8eh9dci9nduiv7jpb1.apps.googleusercontent.com",
+              "client_id": "87632736823-10vm0vb8n18g06uin8k0hqqjlbugt4g7.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
