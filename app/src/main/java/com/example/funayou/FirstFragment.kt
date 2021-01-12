@@ -63,26 +63,23 @@ class FirstFragment : Fragment() {
         var password: String = ""
 
     private fun loginUser() {
-        //Obtenemos usuario y contraseña
         email = etEmail.text.toString()
         password = etPassword.text.toString()
-        //Verificamos que los campos no este vacios
         if (!TextUtils.isEmpty(email) && !TextUtils.isEmpty(password)) {
 
 
-            //Iniciamos sesión con el método signIn y enviamos usuario y contraseña
             mAuth.signInWithEmailAndPassword(email, password)
                 .addOnCompleteListener() {
-
-                    //Verificamos que la tarea se ejecutó correctamente
                         task ->
                     if (task.isSuccessful) {
-                        // Si se inició correctamente la sesión vamos a la vista Home de la aplicación
-                        //goHome() // Creamos nuestro método en la parte de abajo
+                        val transaction = activity?.supportFragmentManager?.beginTransaction()
+                        transaction?.replace(R.id.nav_host_fragment, FourthFragment())
+                        transaction?.disallowAddToBackStack()
+                        transaction?.commit()
+                        //equisdededede
 
-
-                    } else {
-                        // sino le avisamos el usuario que orcurrio un problema
+                        } else {
+                        // sino le avisamos al usuario que orcurrio un problema
                         //Toast.makeText(this, "Authentication failed.",
                             //Toast.LENGTH_SHORT).show()
                     }
