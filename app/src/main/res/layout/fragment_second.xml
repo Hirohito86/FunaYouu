@@ -8,9 +8,11 @@
 
     <LinearLayout
         android:id="@+id/linearLayout3"
-        android:layout_width="306dp"
-        android:layout_height="247dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="30dp"
         android:orientation="vertical"
+        android:padding="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
@@ -59,22 +61,22 @@
             android:layout_height="56dp"
             android:ems="10"
             android:inputType="textPassword" />
-    </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="217dp"
-        android:layout_height="71dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView15"
-        app:layout_constraintVertical_bias="0.25">
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center|top"
+            android:text="@string/i_have_an_account"
+            android:textColor="#54C5C5"
+            android:textSize="20sp" />
 
         <Button
-            android:id="@+id/button13"
+            android:id="@+id/button_reg1"
             android:layout_width="match_parent"
             android:layout_height="61dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
             android:background="#A98BC34A"
             android:text="@string/register_me"
             android:textSize="24sp"
@@ -83,25 +85,12 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textView15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/i_have_an_account"
-        android:textColor="#54C5C5"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
         android:id="@+id/textView16"
         android:layout_width="0dp"
         android:layout_height="130dp"
         android:background="#EDEBEB"
         android:gravity="center"
+        android:padding="10dp"
         android:text="@string/enter_information"
         android:textAlignment="center"
         android:textSize="30sp"

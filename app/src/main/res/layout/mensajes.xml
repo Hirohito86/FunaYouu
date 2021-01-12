@@ -11,4 +11,4 @@
     android:layout_marginRight="16dp"
     app:layoutManager="LinearLayoutManager"
     tools:context=".Mensaje_Item"
-    tools:listitem="@layout/mensaje" />
+    tools:listitem="@layout/mensaje"/>
