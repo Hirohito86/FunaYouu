@@ -1,5 +1,6 @@
 package com.example.funayou
 
+import android.content.Intent
 import android.os.Bundle
 import android.text.TextUtils
 import android.view.LayoutInflater
@@ -7,6 +8,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentManager
+import androidx.fragment.app.FragmentTransaction
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.fragment_first.*
 import kotlinx.android.synthetic.main.fragment_seventh.*
@@ -25,6 +28,10 @@ class FirstFragment : Fragment() {
         val mAuth: FirebaseAuth? = null
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_first, container, false)
+
+
+
+
 
 
         view?.findViewById<Button>(R.id.log_button)?.setOnClickListener{
@@ -72,6 +79,8 @@ class FirstFragment : Fragment() {
                     if (task.isSuccessful) {
                         // Si se inició correctamente la sesión vamos a la vista Home de la aplicación
                         //goHome() // Creamos nuestro método en la parte de abajo
+
+
                     } else {
                         // sino le avisamos el usuario que orcurrio un problema
                         //Toast.makeText(this, "Authentication failed.",
